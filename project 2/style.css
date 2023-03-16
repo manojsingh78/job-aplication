@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.contaner{
+    max-width: 900px;
+    margin: 0 auto;
+}
+.apply_box{
+    max-width: 600px;
+    padding: 20px;
+    background-color: blue;
+    margin: 0 auto;
+    margin-top: 50px;
+    box-shadow: ;
+}
+.small{
+    font-size: 20px;
+}
+.form_contaner{
+    margin: 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px,1fr));
+   
+}
+.form_contol{
+    display: flex;
+    flex-direction: column;
+}
+label{
+    font-size: 16px;
+}
+select,
+textarea,
+input{
+    padding: 0px 10px;
+    border: 1px solid;
+}
